@@ -1,0 +1,176 @@
+/* Title: simple ka blue */
+/* Description: simple ka blue */
+/* Author: nvlocale+usdefault@gmail.com */
+body {
+    background: #FFF;
+}
+
+a { text-decoration: none; }
+
+.nv-thumbnailedList .item {
+    background-color: transparent;
+    border: 0;
+}
+
+.even, .rtl .even {
+    background-image: url(/resources/themes/xml/img/grey-10.png);
+    background-color: transparent;
+    border: 0;
+}
+
+#maintable{
+}
+
+/* Tabs
+*******************************************************************************/
+#divTabsOuter {
+    border-bottom: 3px solid #FFF;
+    border-top-width: 1px;
+}
+
+/* Modules
+*******************************************************************************/
+.resizable .module {
+    margin: 14px 7px;
+}
+.moduleHeader {
+    padding: 4px 0;
+    background-image: url(/resources/themes/xml/img/widget/header.png?v=1);
+    background-repeat: repeat-x;
+    background-position: left top;
+}
+
+.module {
+    border: 0;
+}
+.module .moduleFrame {
+    border: 1px solid #CCC;
+}
+.moduleHeader .edit a,
+.moduleHeader a.edit {
+    color: #FFF;
+}
+
+/* Dialogs
+*******************************************************************************/
+.modalDialog {
+    background: #666;
+    border: 1px solid #555;
+}
+.modalDialog h1 {
+    color: #FFF;
+}
+.nv-settings .settings,
+.nv-settings .page {
+    border-color: #555 #606060 #606060 #555;
+}
+
+/* Core
+*******************************************************************************/
+input.search {
+    background-color: #FFF;
+}
+
+.nv-thumbnailedList .item h3,
+.nv-thumbnailedList .item h3 a {
+    color: #555;
+}
+.nv-thumbnailedList .read,
+.nv-thumbnailedList .read h3,
+.nv-thumbnailedList .read h3 a {
+    color: #999;
+}
+
+/* Icons
+*******************************************************************************/
+
+.actions-window-collapse,
+.moduleHeader .actions-window-collapse,
+.actions-window-expand,
+.moduleHeader .actions-window-expand,
+.actions-view-refresh,
+.actions-view-options,
+.actions-view-sendModule,
+img.actions-view-editModule,
+img.actions-view-shareModule,
+.moduleHeader .actions-window-close {
+    background-image: url(/resources/themes/xml/img/actions.png?v=2);
+}
+
+.moduleHeader img.actions-view-shareModule {
+    background-position: 0 -321px;
+}
+
+.moduleHeader img.actions-view-editModule {
+    background-position: 0 -353px;
+}
+
+.actions-window-collapse {
+    background-position: -3px -133px;
+}
+.moduleHeader .actions-window-collapse {
+    background-position: 0 -96px;
+}
+.actions-window-expand {
+    background-position: -3px -102px;
+}
+.moduleHeader .actions-window-expand {
+    background-position: -3px -246px;
+}
+
+/* Footer
+*******************************************************************************/
+.footerLinks {
+    border: 0;
+}
+#header{background-color: #87c8db;}
+#header, #pageTitle{color: #ffffff;}
+#divTabs li.tab {border-color: #cccccc;} #divTabs .tabs, #divTabs .nv-tabs-left, #divTabs .nv-tabs-right {border-bottom-color: #cccccc}
+#divTabs li.tab{background-color: #f0f0f0;}
+#divTabs li.tab, #divTabs li.tab:hover, #divTabs li.tab a, #divTabs li.tab a:link {color: #999999;}
+body #divTabs li.tab.selected {background-color: #dedede; border-bottom: 1px solid #dedede}
+#divTabs li.tab.selected, #divTabs li.tab.selected:hover, #divTabs li.tab.selected a, #divTabs li.tab.selected a:link {color: #666666;}
+#divTabsOuter {border-bottom: 3px solid #dedede}
+body{background-color: #dedede}
+div.module.red-module .moduleFrame {border: 1px solid #ff8f8f;} div.red-module .moduleHeader{border-bottom: 1px solid #ff8f8f;}
+div.module.orange-module .moduleFrame {border: 1px solid #ff80d0;} div.orange-module .moduleHeader{border-bottom: 1px solid #ff80d0;}
+div.module.yellow-module .moduleFrame {border: 1px solid #ffd28a;} div.yellow-module .moduleHeader{border-bottom: 1px solid #ffd28a;}
+div.module.green-module .moduleFrame {border: 1px solid #cbde50;} div.green-module .moduleHeader{border-bottom: 1px solid #cbde50;}
+div.module.blue-module .moduleFrame {border: 1px solid #a0dceb;} div.blue-module .moduleHeader{border-bottom: 1px solid #a0dceb;}
+div.module.white-module .moduleFrame {border: 1px solid #9e9e9e;} div.white-module .moduleHeader{border-bottom: 1px solid #9e9e9e;}
+div.module .moduleFrame {border: 1px solid #d6d6d6;} .moduleHeader{border-bottom: 1px solid #d6d6d6;}
+.color-option.red, div.moduleHeader.red {background-color: #fc4949;}
+.color-option.orange, div.moduleHeader.orange {background-color: #fa2daf;}
+.color-option.yellow, div.moduleHeader.yellow {background-color: #ffb338;}
+.color-option.green, div.moduleHeader.green {background-color: #aecf1f;}
+.color-option.blue, div.moduleHeader.blue {background-color: #87c8db;}
+.color-option.white, div.moduleHeader.white {background-color: #707070;}
+.actions-view-refresh,.actions-view-options,img.actions-view-shareModule,img.actions-view-editModule,.moduleHeader .actions-window-close {background-image: url(/resources/themes/xml/img/icons/actions.000000.png);}
+div.moduleHeader{background-color: #cccccc;}
+div.moduleHeader, div.moduleHeader .title, div.moduleHeader .title a, .moduleHeader .title em, .moduleHeader .title em a{color: #ffffff;}
+#footer .footerLinks{color: #666666;}
+#footer .footerLinks a{color: #666666;}
+
+            #divTabs .btn-scroll-prev  { background-position: 6px -258px; }
+            #divTabs .btn-scroll-next  { background-position: 6px -390px; }
+            #divTabs .btn-newtab       { background-position: 6px -456px; }
+            #divTabs .btn-menu-alltabs { background-position: 6px -324px; }
+            div.moduleHeader .uwa-widget-menu-button { color: #AAA; }
+
+            #divTabs[overflow="false"] > .nv-tabs-right {
+                background-image: -webkit-linear-gradient(right, rgb(204, 204, 204) 30px, rgba(204, 204, 204, 0.2) 70px, rgba(204, 204, 204, 0.0) 100%); /* Chrome10+, Safari5.1+ */
+                background-image:    -moz-linear-gradient(right, rgb(204, 204, 204) 30px, rgba(204, 204, 204, 0.2) 70px, rgba(204, 204, 204, 0.0) 100%); /* FF3.6+ */
+                background-image:     -ms-linear-gradient(right, rgb(204, 204, 204) 30px, rgba(204, 204, 204, 0.2) 70px, rgba(204, 204, 204, 0.0) 100%); /* IE10 */
+                background-image:      -o-linear-gradient(right, rgb(204, 204, 204) 30px, rgba(204, 204, 204, 0.2) 70px, rgba(204, 204, 204, 0.0) 100%); /* Opera 11.10+ */
+                background-image:         linear-gradient(right, rgb(204, 204, 204) 30px, rgba(204, 204, 204, 0.2) 70px, rgba(204, 204, 204, 0.0) 100%); /* W3C */
+            }
+            .lt-ie10 #divTabs[overflow="false"] > .nv-tabs-right {
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00cccccc endColorstr=#ffcccccc, GradientType=1); /* IE 5.5 - 7 */
+                -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00cccccc, endColorstr=#ffcccccc, GradientType=1)"; /* IE 8 */
+            }
+
+            #divTabs[overflow="true"] > .nv-tabs-right,
+            #divTabs[overflow="true"] > .nv-tabs-left {
+                background-color: rgb(183, 183, 183);
+            }
+.no-touch #divTabs .btn:hover, #divTabs .btn.pressed { background-color: #aaaaaa }
