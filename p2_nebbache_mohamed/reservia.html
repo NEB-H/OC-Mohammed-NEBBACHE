@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8" />      
         <title>Reservia</title>
-        <link rel="stylesheet" href="reservia.css" />
+        <!--link rel="stylesheet" href="reservia.css" /-->
     </head>
 
 
@@ -13,13 +13,14 @@
 
       <header class="header">
             
-         <img src="/home/mohammed/Desktop/OC/p2_nebbache_mohamed/Projet 2 - Reservia/images/logo/Reservia.svg" alt= "Logo Reservia"/>  
+         <img class
+         ="logo"src="/home/mohammed/Desktop/OC/p2_nebbache_mohamed/Projet 2 - Reservia/images/logo/Reservia.svg" alt= "Logo Reservia"/>  
  
-        <nav> <! -- Menu -- >
+        <nav class="navigation"> <! -- Menu -- >
                
-                  <a href="#">Hebergenment </a>
-                  <a href="#">Activites </a>
-                  <a href="#">s'inscrire </a>
+                  <a class="Hebergement" href="#">Hebergenment </a>
+                  <a class="Activites" href="#">Activites </a>
+                  <a class="sinscrire" href="#">s'inscrire </a>
 
          </nav>
 
@@ -29,11 +30,69 @@
       
       <main>
         
-        <section></section>
+        <section class="section1">                          <!--SECTION DE RECHERCHE -->
 
-        <section></section>
+          <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+          <div class="recherche">
+           <input type="text" name="ville">            <!--SAISIE-->
+           <input type="submit" name="Rechercher">     <!--BOUTON-->
+          </div>
+          <div class="filtre"> 
+            <h3>Filtres</h3>
+            <h4>Economique</h4>
+            <h4>Familial</h4>
+            <h4>Romantique</h4>
+            <h4>Animaux autorisés</h4>
+            <h6>Plus de 500 logements sont disponibles dans cette ville</h6>
+          </div>
 
-        <section></section>
+        </section>
+
+
+        <section class="section2">              <!-- conteneur resultat-->
+
+          <div class="resultat">              
+            <h2>Hébergement a Marseille</h2>
+            <div class="vignettess2"> 
+
+              <img src="" alt="Auberge la Cannebiere">
+              <img src="" alt="Hotel du port">
+              <img src="" alt="Hotel Les mouettes">
+              <img src="" alt="Hotel de la mer">
+              <img src="" alt="Auberge Le panier">
+              <img src="" alt="Hotel chez Amina">
+              
+            </div>
+          </div>
+        </section>
+
+
+        <section class="section3">              <!-- conteneur Les plus populaires-->            
+
+            <div class="populaires">              
+              <h2>Les plus populaires</h2>
+              <img src="home/mohammed/Desktop/OC/p2_nebbache_mohamed/Projet 2 - Reservia/images/logo/Reservia.sv" alt="Hotel Le soleil de la mer">
+              <img src="" alt="r">
+              <img src="" alt="Hotel chez Amina">
+            </div>  
+
+        </section>
+<!-- conteneur Les plus populaires-->
+         <section class="section4">         <!-- conteneur activites-->
+
+            <div class="activitesam">              
+              <h2>Activites a Marseille</h2>
+              <img src="/home/mohammed/Desktop/OC/p2_nebbache_mohamed/Projet 2 - Reservia/images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port">
+              <img src="/home/mohammed/Desktop/OC/p2_nebbache_mohamed/Projet 2 - Reservia/images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomegues">
+              <img src="/home/mohammed/Desktop/OC/p2_nebbache_mohamed/Projet 2 - Reservia/images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Iles du frioul">
+              <img src="/home/mohammed/Desktop/OC/p2_nebbache_mohamed/Projet 2 - Reservia/images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques">
+              <img src="/home/mohammed/Desktop/OC/p2_nebbache_mohamed/Projet 2 - Reservia/images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde">
+              <img src="/home/mohammed/Desktop/OC/p2_nebbache_mohamed/Projet 2 - Reservia/images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp">
+              
+            </div>  
+
+        </section>
+
        </main> 
 
 
