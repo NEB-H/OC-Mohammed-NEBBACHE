@@ -13,14 +13,17 @@
 
 .header 
 {
-  display: flex;
-  justify-content: space-between;
-    
- }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: all;
+   
+}
 
-.navigation a
+
+.navigation
 {
-  color: 
+   height: all;
 }
 
 p
@@ -54,10 +57,16 @@ span
   justify-content: center;
 
 }
+
 #section2
 {
   display: flex;
+}
+#hebergement
+{
+  display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 
 }
 
