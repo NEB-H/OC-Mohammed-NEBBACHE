@@ -1,12 +1,84 @@
-.header
+*
 {
-    display: flex;
-  
-  }
+  font-family: 'Raleway', sans-serif;
 
-
-#footer
-{
-    display: flex;
-    flex-direction: row;
 }
+ 
+
+ a  
+{
+  text-decoration: none; 
+}
+
+
+.header 
+{
+  display: flex;
+  justify-content: space-between;
+    
+ }
+
+.navigation a
+{
+  color: 
+}
+
+p
+{
+ 
+  font-size: small;
+
+}
+
+.navigation               /*SURVOL */
+a:hover
+{  
+    color:#0065FC;  
+    border-top:2px #0065FC solid;
+  
+}
+
+.filtre
+{
+  display: flex;
+  flex-direction: row;
+ 
+
+}
+i
+{
+   color: #0065FC;
+}
+span
+{
+  justify-content: center;
+
+}
+#section2
+{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+aside 
+{
+  display: flex;
+  flex-direction: column;
+}
+.footer
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+    
+
+}
+.footer div
+{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
