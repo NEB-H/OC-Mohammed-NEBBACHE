@@ -7,7 +7,7 @@
 
  a  
 {
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 
@@ -16,16 +16,56 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: all;
+    height: 75px;
+}
+
+.recherche 
+{
+  display: flex;
+  justify-content: flex-start;
+}
+.recherche i
+{
+
+   padding:10px;
+   background-color: #F2F2F2
+
+
    
 }
 
+.saisie
+{
+   color: #0065FC;
+   background-color: white;
+   
+}
+
+.button
+{
+   color: white;
+   background-color: #0065FC;
+   border-radius: 0px 10px 0px 0px ;
+  
+}
 
 .navigation
 {
-   height: all;
+   height: 100%;
+   display: flex;
+   align-items: center;
+
 }
 
+.navigation_
+{
+  
+   height: 100%;
+   display: flex;
+   align-items: center;
+   padding: 0 10px;
+
+}
 p
 {
  
@@ -36,8 +76,11 @@ p
 .navigation               /*SURVOL */
 a:hover
 {  
+  
+
     color:#0065FC;  
     border-top:2px #0065FC solid;
+    
   
 }
 
@@ -45,16 +88,26 @@ a:hover
 {
   display: flex;
   flex-direction: row;
- 
+  padding: 0 10px;
+  justify-content: space-between;
+  align-items: center;
+ border-radius: 40px;
+
 
 }
-i
+.filtre i
 {
+  padding: 5px;
    color: #0065FC;
+   background-color: #DEEBFF;
+   border-radius: 30px;
 }
+
 span
 {
   justify-content: center;
+  padding: 5px;
+  align-items: center;
 
 }
 
@@ -62,11 +115,36 @@ span
 {
   display: flex;
 }
+
 #hebergement
 {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  align-items: center;
+  padding: 5px;
+  background-color: #F2F2F2;
+
+
+}
+#hebergement i
+{
+  color: #0065FC;
+}
+ h4
+{
+  font-weight: bold;
+}
+
+.h1,.h2,.h3,.h4,.h5,.h6
+{
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0 10px;
+  background-color: white;
+
 
 }
 
