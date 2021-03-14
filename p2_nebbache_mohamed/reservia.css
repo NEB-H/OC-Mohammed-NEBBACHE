@@ -112,6 +112,7 @@ input::placeholder {
 
 h4{
   padding-right: 5px;
+  margin-top: 0px;
 }
 .filtre
 {
@@ -158,17 +159,17 @@ h4{
 
 #hebergement
 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
-  align-items: center;
+  
   background-color: #F2F2F2;
-  padding: 30px;
+  padding: 20px 30px 20px 30px;
   border-radius:30px;
-
+  margin-right: 30px;
 
 }
+
+
+
+
 #hebergement i
 {
   color: #0065FC;
@@ -176,12 +177,21 @@ h4{
 
 #hebergement a:hover
 {
+
   transform: scale(1.2);
 
+
 }
- h4
+
+#hebergement a
 {
-  font-weight: bold;
+ margin:10px;
+
+
+}
+body
+{
+  margin:30px;
 }
 
 
@@ -192,8 +202,8 @@ h4{
 }
 #hebergement img 
 {
-  width: 50px;
-  height: all;
+  width: 75px;
+
 }
 .ligne1 a:hover
 {
@@ -204,17 +214,20 @@ h4{
 {
   display: flex;
 }
-
+h5
+{
+  margin: 0px;
+}
 .h1,.h2,.h3,.h4,.h5,.h6
 {
   display: flex;
   justify-content:space-around;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   padding: 0 10px;
   background-color: white;
   border-radius: 30px;
-  margin: 10px;
+
 
 }
 
