@@ -1,3 +1,4 @@
+
 *
 {
   font-family: 'Raleway', sans-serif;
@@ -199,9 +200,10 @@ h4{
 #section2                                    /*HEBERGEMENT + ASIDE */
 {
   display: flex;
+  
   justify-content: space-between;
   height: 610px;
-  
+  flex-wrap: wrap-reverse;
 }
 
 
@@ -217,7 +219,7 @@ h4{
     align-content: center;
     margin: 10px;
     padding: 10px;
-    height: 100%;
+    height: 50%;
     width: 60%;
     border-radius:15px;
     background-color: #F2F2F2;
@@ -338,7 +340,7 @@ h5
   margin: 10px;
   padding: 10px;
   border-radius:30px;
-  height: 90%;
+  height: 40%;
   width:90%;
 
 }
@@ -431,11 +433,12 @@ h5
 
 .une                        /*COLONNE AVEC 1 ACTIVITE*/
 {
-    width: 25%;
+width: 20%;
     height: 90%;
     display: flex;
     flex-direction: column;
-     margin-right: 30px;
+    margin-right: 25px;
+    justify-content:space-between;
 
 }
 .une  img
@@ -482,22 +485,21 @@ h5
 .min3a                      /*activites taille 1/2*/
 
 {   width: 100%;
-    height: 65%;
+    height: 45%;
     display: flex;
     flex-direction: column;
     margin-right: 30px;
     justify-content: flex-start;
-
    
 }
 .min3b                      /*activites taille 1/2*/
 
-{   width: 100%;
-    height: 25%;
+{  width: 100%;
+    height: 45%;
     display: flex;
     flex-direction: column;
     margin-right: 30px;
-    justify-content: space-between;
+    justify-content: flex-start;
 
    
 }

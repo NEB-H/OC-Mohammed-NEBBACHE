@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html>
-
     <head>
         <meta charset="utf-8" />      
         <title>Reservia</title>
         <link rel="stylesheet" href="reservia.css" >
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="fontawesome-free-5.15.2-web/css/all.css"  />
+        <link rel="stylesheet" href="fontawesome-free-5.15.2-web/css/all.css" 
+         />
+         
+         <link rel="stylesheet" href="reservia.css">
+
+         <link rel="stylesheet" media="screen and (max-width: 992px)" href="reserviatablette.css" />
+
+         <link rel="stylesheet" media="screen and (max-width: 768px)" href="reservia.css" />
+
     </head>
 
 
@@ -16,9 +23,9 @@
 
       <header class="header">
             
-         <img class="logo"src=" ./Projet 2 - Reservia/images/logo/Reservia.svg" alt= "Logo Reservia"/>  
+         <img class="logo" src=" Projet 2 - Reservia/images/logo/Reservia.svg" alt= "Logo Reservia"/>  
  
-        <nav class="navigation"> <! -- Menu -- >
+        <nav class="navigation"> <!-- Menu -->
                
                   <a class="navigation_" href="#sectionhebergement">Hebergement </a>
                   <a class="navigation_" href="#section3">Activites </a>
@@ -27,11 +34,11 @@
          </nav>
 
 
-      </header> 
+       </header> 
 
-      
-      <main>
-        
+
+       <main>
+
         <section class="section1">              <!--SECTION DE RECHERCHE -->
 
           <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
@@ -40,267 +47,323 @@
            <i class="fas fa-map-marker-alt"></i>
            <input class="saisie" type="text" name="ville" placeholder="Marseille,France" />            <!--SAISIE-->
            <input class="button" type="button" value="Rechercher">     <!--BOUTON-->
-          </div>
-          <div class="filtre"> 
-            <h4>Filtres</h4>
-            <a href="#"><i class="fas fa-money-bill-wave-alt"></i>Economique</a>         
-            <a href="#"><i class="fas fa-child"></i>Familial</a>
-            <a href="#"><i class="fas fa-heart"></i>Romantique</a>
-            <a href="#"><i class="fas fa-dog"></i>Animaux autorisés</a>     
-          </div>
-            <p><i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+         </div>
+         <div class="filtre"> 
+          <h4>Filtres</h4>
+          <a href="#"><i class="fas fa-money-bill-wave"></i><span class="motfiltre">Economique</span></a>         
+          <a href="#"><i class="fas fa-child"></i><span class="motfiltre">Familial</span></a>
+          <a href="#"><i class="fas fa-heart"></i><span class="motfiltre">Romantique</span></a>
+          <a href="#"><i class="fas fa-dog"></i><span class="motfiltre">Animaux autorisés</span></a>     
+        </div>
+        <p><i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
 
         </section>
 
 
-          
-
-      
-        <section id="section2">  
+          <section id="section2">  
 
 
-          <div id="hebergement">  
-          <h4 id="sectionhebergement">Hébergement a Marseille</h4>              <!-- conteneur logement-->
-          <!-- cont hebergement-->  
-                           
-            <div class="ligne1">
-               
-              <a class= "h1" href=#>      <!-- resultat hebergement 1/6-->
-              <img           
-                  src="Projet 2 - Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" 
+            <div id="hebergement">  
+              <h4 id="sectionhebergement">Hébergement a Marseille</h4>              <!-- conteneur logement-->
+              <!-- cont hebergement-->  
+
+              <div class="ligne">               <!--LIGNE 1-->
+                <a href="#"class= "h" href="#" >      <!-- resultat hebergement 1/6-->  
 
 
-                  srcset= "Projet2-Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg 320w,
-                  Projet2-Reservia/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg 1200w" 
-                  alt="Auber">
-              <h5>Aubere la Cannebiere</h5>
-              <span>Nuit à partir de 25 €<br></span>
-              <span class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-              </span>
-             
-             </a>
+                  <div class="picheb">        <!--PICTURE RESULTAT-->
+                    <img src="Projet 2 - Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"  alt="Auber">                    
+                  </div>
 
-             <a class= "h4" href=#>      <!-- resultat hebergement2/6 -->
-              <img.             
-                  src="Projet 2 - Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" 
+                  <div class="descripheb">                   <!--DESCRIPTION  RESULTAT-->
+                    <h5>Aubere la Cannebiere</h5>             <!--NOM-->
+                    <span class="prix">Nuit à partir de <strong>25 €</strong><br></span>    <!--PRIX-->
+                    <span class="stars">                     <!--ETOILE-->
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="far fa-star fa-xs"></i>
+                    </span>             
+                  </div>
 
-
-                  srcset= "Projet2-Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg 320w,
-                  rojet2-Reservia/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg 1200w" 
-                  alt="\
+                </a>
+                <a href="#" class= "h">      <!-- resultat hebergement 1/6-->  
 
 
-                  ">
-              <h5>Hotel du port</h5>
-              <span>Nuit à partir de 52 €<br></span>
-              <span class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </span>
-             
-             </a>
+                  <div class="picheb">        <!--PICTURE RESULTAT-->
+                    <img src="Projet 2 - Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"  alt="Auber">                    
+                  </div>
+
+                  <div class="descripheb">                   <!--DESCRIPTION  RESULTAT-->
+                    <h5>Aubere la Cannebiere</h5>             <!--NOM-->
+                    <span class="prix">Nuit à partir de <strong>25 €</strong><br></span>    <!--PRIX-->
+                    <span class="stars">                     <!--ETOILE-->
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="far fa-star fa-xs"></i>
+                    </span>             
+                  </div>
+
+                </a>      <a href="#" class= "h">      <!-- resultat hebergement 1/6-->  
 
 
-            <a class= "h3">      <!-- resultat hebergement3/6 -->
-              <img.             
-                  src="Projet 2 - Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" 
+                  <div class="picheb">        <!--PICTURE RESULTAT-->
+                    <img src="Projet 2 - Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"  alt="Auber">                    
+                  </div>
 
+                  <div class="descripheb">                   <!--DESCRIPTION  RESULTAT-->
+                    <h5>Aubere la Cannebiere</h5>             <!--NOM-->
+                    <span class="prix">Nuit à partir de <strong>25 €</strong><br></span>    <!--PRIX-->
+                    <span class="stars">                     <!--ETOILE-->
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="far fa-star fa-xs"></i>
+                    </span>             
+                  </div>
 
-                  srcset= "Projet2-Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg 320w,
-                  Projet2-Reservia/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg 1200w" 
-                  alt="\
-
-
-                  ">
-              <h5>Hotel Les mouettes</h5>
-              <span>Nuit à partir de 76 €<br></span>
-              <span class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fa rfa-star"></i>
-              </span>
-             
-             </a>
-
-          </div>
-
-
-            <div class="ligne2">
-             <a class= "h5">      <!-- resultat hebergement4/6 -->
-              <img.             
-                  src="Projet 2 - Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" 
-
-
-                  srcset= "Projet2-Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg 320w,
-                  Projet2-Reservia/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg 1200w" 
-                  alt="\
-
-
-                  ">
-              <h5>Hotel du port</h5>
-              <span>Nuit à partir de 46 €<br></span>
-              <span class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </span>
-             
-             </a>
-
-             <a class= "h5">      <!-- resultat hebergement5/6 -->
-              <img.             
-                  src=".Projet 2 - Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" 
-
-
-                  srcset= "Projet2-Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg 320w,
-                  Projet2-Reservia/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg 1200w" 
-                  alt="\
-
-
-                  ">
-              <h5>Hotel du port</h5>
-              <span>Nuit à partir de 46 €<br></span>
-              <span class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </span>
-             
-             </a>
-
-             <a class= "h6">      <!-- resultat hebergement6/6 -->
-              <img.             
-                  src="Projet 2 - Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" 
-
-
-                  srcset= "Projet2-Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg 320w,
-                  Projet2-Reservia/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg 1200w" 
-                  alt="\
-
-
-                  ">
-              <h5>Hotel du port</h5>
-              <span>Nuit à partir de 46 €<br></span>
-              <span class="stars">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </span>
-             
-             </a>
-
-            </div> 
-
-                    
-           
+                </a>
+              </div>   
 
 
 
 
+              <div class="ligne">               <!--LIGNE 1-->
+                <a href="#" class= "h">      <!-- resultat hebergement 1/6-->  
 
-            <!--
-            <img src=".Projet 2 - Reservia/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hotel du port">
-              <img src=" Projet 2 - Reservia/images/hebergements/4_small/" alt="Hotel Les mouettes">
-              <img src=" Projet 2 - Reservia/images/hebergements/4_small/" alt="Hotel de la mer">
-              <img src=" ./Projet 2 - Reservia/images/hebergements/4_small/" alt="Auberge Le panier">
-              <img src=" ./Projet 2 - Reservia/images/hebergements/4_small/" alt="Hotel chez Amina">
-            -->
-          
-           
-          </div>
 
-          <aside class="populaires">              
+                  <div class="picheb">        <!--PICTURE RESULTAT-->
+                    <img src="Projet 2 - Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"  alt="Auber">                    
+                  </div>
+
+                  <div class="descripheb">                   <!--DESCRIPTION  RESULTAT-->
+                    <h5>Aubere la Cannebiere</h5>             <!--NOM-->
+                    <span class="prix">Nuit à partir de <strong>25 €</strong><br></span>    <!--PRIX-->
+                    <span class="stars">                     <!--ETOILE-->
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="far fa-star fa-xs"></i>
+                    </span>             
+                  </div>
+
+                </a>
+                <a href="#" class= "h">      <!-- resultat hebergement 1/6-->  
+
+
+                  <div class="picheb">        <!--PICTURE RESULTAT-->
+                    <img src="Projet 2 - Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"  alt="Auber">                    
+                  </div>
+
+                  <div class="descripheb">                   <!--DESCRIPTION  RESULTAT-->
+                    <h5>Aubere la Cannebiere</h5>             <!--NOM-->
+                    <span class="prix">Nuit à partir de <strong>25 €</strong><br></span>    <!--PRIX-->
+                    <span class="stars">                     <!--ETOILE-->
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="far fa-star fa-xs"></i>
+                    </span>             
+                  </div>
+
+                </a>      <a href="#" class= "h">      <!-- resultat hebergement 1/6-->  
+
+
+                  <div class="picheb">        <!--PICTURE RESULTAT-->
+                    <img src="Projet 2 - Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"  alt="Auber">                    
+                  </div>
+
+                  <div class="descripheb">                   <!--DESCRIPTION  RESULTAT-->
+                    <h5>Aubere la Cannebiere</h5>             <!--NOM-->
+                    <span class="prix">Nuit à partir de <strong>25 €</strong><br></span>    <!--PRIX-->
+                    <span class="stars">                     <!--ETOILE-->
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="far fa-star fa-xs"></i>
+                    </span>             
+                  </div>
+
+                </a>
+              </div> 
+
+
+              <h4 id="ap">Afficher plus</h4>     
+
+            </div>
+
+
+            <aside class="populaires">              
               <h4>Les plus populaires<i class="fas fa-chart-line"></i></h4>
-              <img src="../Projet 2 - Reservia/images/logo/Reservi6a.sv" alt="Hotel Le soleil de la mer">
-              <img src="" alt="r">
-              <img src="" alt="Hotel chez Amina">
-          </aside>  
 
-        </section>
+              <a class= "p" href=#>      <!-- resultat populaires 1/3-->
+                <img           
+                src="Projet 2 - Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auber">
+                <div class="description" >
 
+                  <h5>Aubere la Cannebiere</h5>
+                  <span>Nuit à partir de 25 €<br></span>
+                  <span class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </span>
+                </div>
+              </a>
 
+              <a class= "p" href=#>      <!-- resultat populaires 2/3-->
+                <img           
+                src="Projet 2 - Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auber">
+                <div class="description" >
 
+                  <h5>Aubere la Cannebiere</h5>
+                  <span>Nuit à partir de 25 €<br></span>
+                  <span class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </span>
+                </div>
+              </a>
 
+              <a class= "p" href=#>      <!-- resultat populaires 3/3-->
+                <img src="Projet 2 - Reservia/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auber">
+                <div class="description" >
 
-
-
-
-
-
-
-
-
-        
-                              
-         <section id="section3">             <!-- conteneur activites-->
-
-            <div class="activitesam">              
-              <h4>Activites a Marseille</h4>
-              <img srcset=".Projet 2 - Reservia/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg 32w" alt="Vieux Port">
-              <img src="../Projet 2 - Reservia/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomegues">
-              <img src="../Projet 2 - Reservia/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Iles du frioul">
-              <img src="../Projet 2 - Reservia/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques">
-              <img src="../Projet 2 - Reservia/images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde">
-              <img src="../Projet 2 - Reservia/images/activites/4_small/lena-paulin-wh4-EJoDcV0-unsplash.jpg" alt="Parc Longchamp">
-              
-            </div>  
-
-        </section>
-
-       </main> 
-
-
-      <footer class="footer">
-        
-        <div> <!-- A propos -->
-          
-          <h4>A propos</h4>
-               
-           <a href="#">Fonctionnement du site</a>
-           <a href="#">Condition générales de vente</a>
-           <a href="#">s'inscrire </a>
-                      
-         </div> 
-
-        <div> <!-- Nos hébergements-->
-          
-          <h4> Nos hébergements</h4>
-               
-               <a href="#">Charte qualité</a>
-               <a href="#">Soumettre votre hotel</a>
-               
-                      
-         </div> 
-
-        <div> <!-- Assistance-->
-          
-          <h4> Assistance</h4>
-               
-               <a href="#">Centre d'aide</a>
-               <a href="#">Nous contacter</a>
-               
-                      
-         </div> 
-
-      </footer>
+                  <h5>Aubere la Cannebiere</h5>
+                  <span>Nuit à partir de 25 €<br></span>
+                  <span class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </span>
+                </div>
+              </a>
 
 
-    </body>
+            </aside>  
 
+          </section>
+
+
+          <section id="section3">  
+            <!-- conteneur activites-->
+
+            <h4 class="titresection3">Activites a Marseille</h4>
+            
+            <div class="activitesam"> 
+                <a class="une" href="#">            <!--COLONNE 1-->
+                  <img class src="Projet 2 - Reservia/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port">
+                  <div class="description3">
+                    <h5>Vieux Port</h5>
+                  </div>
+                </a>
+
+
+
+                <div class="deux" >           <!--COLONNE 2-->
+
+                 <a class="min3a"href="#">
+                    <div class="pic3m"><img src="Projet 2 - Reservia/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomegues"><br>
+                    </div>  
+
+                   <div class="description3m">
+                    <h5>Fort de Pomegues</h5>
+                   </div>
+                </a>
+
+                <a class="min3b"href="#">
+                  <div class="pic3m"><img src="Projet 2 - Reservia/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Iles du frioul"><br>
+                  </div>
+                  <div class="description3m">
+                    <h5>Iles du frioul</h5>
+                  </div>
+                </a>
+                </div>
+
+                <a class="une" href="#">            <!--COLONNE 3-->
+                  <img class src="Projet 2 - Reservia/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port">
+                  <div class="description3">
+                    <h5>Vieux Port</h5>
+                  </div>
+                </a>
+
+                <div class="deux" >           <!--COLONNE 4-->
+
+                 <a class="min3"href="#">
+                    <div class="pic3m"><img src="Projet 2 - Reservia/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomegues"><br>
+                    </div>  
+
+                   <div class="description3m">
+                    <h5>Fort de Pomegues</h5>
+                   </div>
+                </a>
+
+                <a class="min3"href="#">
+                  <div class="pic3m"><img src="Projet 2 - Reservia/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Iles du frioul"><br>
+                  </div>
+                  <div class="description3m">
+                    <h5>Iles du frioul</h5>
+                  </div>
+                </a>
+                </div>
+
+
+
+          </div>
+
+    </section>
+
+         </main> 
+
+
+<footer class="footer">
+
+  <div> <!-- A propos -->
+
+    <h4>A propos</h4>
+
+    <a href="#">Fonctionnement du site</a>
+    <a href="#">Condition générales de vente</a>
+    <a href="#">s'inscrire </a>
+
+  </div> 
+
+  <div> <!-- Nos hébergements-->
+
+    <h4> Nos hébergements</h4>
+
+    <a href="#">Charte qualité</a>
+    <a href="#">Soumettre votre hotel</a>
+
+
+  </div> 
+
+  <div> <!-- Assistance-->
+
+    <h4> Assistance</h4>
+
+    <a href="#">Centre d'aide</a>
+    <a href="#">Nous contacter</a>
+
+
+  </div> 
+
+</footer>
+
+
+</body>
 </html>
