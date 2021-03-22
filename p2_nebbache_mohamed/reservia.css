@@ -11,7 +11,11 @@
    
 }
 
-
+main img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 .header 
 {
     display: flex;
@@ -20,10 +24,14 @@
     height: 75px;
     margin:30px;
 }
-
+.logo
+{
+  margin-right: auto;
+  padding: 0px 10px;
+}
 main
 {
-  margin :0px 30px;
+  margin :0px 50px;
 }
 
 .navigation
@@ -78,6 +86,8 @@ body
   flex-direction: column;
   margin:0px;
 }
+
+
 .section1 h1
 {
  font-size: 20px;
@@ -119,7 +129,24 @@ input::placeholder {
    color: white;
    background-color: #0065FC;
    border-radius: 0px 10px 10px 0px ;
-  border-color: black;
+   border:none;
+   padding: 0px 10px 0px 10px; 
+
+}
+
+button
+{
+color: white;
+   background-color: #0065fc;
+   border-radius: 10px;
+   display:none;
+
+ border: none;
+}
+
+.loupe i
+{
+  background-color: #0065FC;
 
 }
 
@@ -154,10 +181,10 @@ h4{
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  margin: 10px;
+  margin: 10px ;
  
   align-items: center;
-  font-size: 13px;
+  font-size: 14px;
   border:2px solid #F2F2F2;
   border-radius: 30px;
 
@@ -250,9 +277,9 @@ h4{
   flex-direction:column;
   justify-content: flex-start;
   margin: 5px;
-  padding: 3px;
-  height: 100%;
-  width: 30%;
+  padding: 0px 3px 3px;
+  height: 95%;
+  width: 100%;
   border-radius:15px;
   background-color: white;
   
@@ -260,7 +287,7 @@ h4{
 
 a:hover
 {
-   transform: scale(1.2); 
+   transform: scale(1.1); 
 }
 
 
@@ -281,9 +308,9 @@ a:hover
 {
   display: flex;
   align-self: center;
-  height: 70%;
+  height: 100%;
   width:100%;
-  border:2px solid blue;
+  border:2px solid white;
   border-radius: 15px 15px 0px 0px;
  overflow: hidden;
  margin-bottom: 5px;
@@ -337,16 +364,13 @@ h5
   background-color: #F2F2F2;
   margin: 10px;
   padding: 10px;
-  border-radius:30px;
+  border-radius:15px;
   height: 90%;
-  width:90%;
+  width:40%;
 
 }
 
-.populaires a:hover
-{
- transform: scale(1.2); 
-}
+
 
 .populaires h4
 { 
@@ -362,8 +386,8 @@ h5
 .p
 {
     display: flex;
-   justify-content: space-around;
-    padding: 10px;
+   justify-content: space-between;
+    padding: 2px;
     margin:10px;
     height: 30%;   
     width: 90%;
@@ -374,23 +398,26 @@ h5
 
 }
 .p img {
-    width: 45%;
+    width: 40%;
     height: 100%;
-    border-radius: 15px 0px 0px 15px;
+    border-radius: 15px 0px 0px 20px;
+    object-fit: cover;
 }
 
-.descrritpion
-{
+.description {
     display: flex;
-      flex-direction: column;
-     border-radius: 0px 15px 15px 0px;
-      width: 50%;
-      height: 25%;
-      background-color: white;
-      align-items: center;
-
+    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding-left: 5px;
 
 }
+
+
+
+
+
 
 
 
@@ -398,7 +425,6 @@ h5
 
 
                                             /*SECTION 3 =TITRE +ACTIVITES*/
-
 
 #section3
 {
@@ -463,7 +489,7 @@ h5
     margin: 5px;
     padding: 3px;
     width: 100%;
-    height: 10%
+    height: 15px;
 
   }
 
@@ -517,6 +543,10 @@ h5
   height: 10%;
 
 }
+   
+
+
+
 
 
 
