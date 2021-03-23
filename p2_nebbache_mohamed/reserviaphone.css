@@ -47,6 +47,7 @@ button
 #hebergement
 {
   background-color: white;
+
 }
 
 .section1 p i {
@@ -67,35 +68,68 @@ button
   margin: 0px 15px;
 }
 
-
+main
+{ 
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+}
 .ligne {
-    flex-direction: column;
+   flex-wrap: wrap;
+   margin-bottom: 0;
+   height:775px;
+   justify-content: space-between;
+   align-content: initial;
 }
 
 /**TAILLE SECTION**/
 .section1
-{height: 715px;}
+{max-height: 715px;}
 
   
 
 #section2
 {
-  height:2650px;
+  height: 3000px;
+  justify-content: flex-end;
 }
 
 #section3
 {
- height:1850px; 
+ max-height:1850px; 
+  justify-content:flex-start;
 }
 
 /**TAILLE hebergement aside **/
 
 #hebergement
 {
-  height:1850px;
+  max-height:1850px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #8BC34A;
+  
+}
+  
 }
 
 .populaires
 {
-  height:775px;
+  max-height:775px;
+}
+
+.h{
+
+  height:25%;
+  margin:10px;
+}
+
+
+
+footer
+{
+  flex-direction: column;
 }
