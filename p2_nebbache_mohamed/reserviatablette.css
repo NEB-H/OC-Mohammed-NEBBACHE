@@ -93,7 +93,7 @@ a:hover
   height: 400px;
   overflow: hidden;
   justify-content: space-between;
-  margin-right: 5%;
+  margin-right: 0;
 
 }
 
@@ -101,7 +101,7 @@ a:hover
 {
   display: flex;
   height:90%;
-  width: 80%;
+  width: auto;
   padding-right: 25px;
   margin-left: 10px;
 
