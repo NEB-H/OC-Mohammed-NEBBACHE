@@ -480,7 +480,7 @@ h5
     margin: 5px;
     padding: 3px;
     width: 100%;
-    height: 15px;
+    height: 20px;
 
   }
 
@@ -527,13 +527,7 @@ h5
 
 }
 
-.description3m
-{
 
-  width: 100%;
-  height: 10%;
-
-}
    
 
 
@@ -551,12 +545,21 @@ h5
     background-color: #F2F2F2;
     padding: 40px;
 
+
 }
 .footer div
 {
   display: flex;
   flex-direction: column;
+  margin-bottom: 20px;
 }
 
+.footer a
+{
+  color:black;
+}
 
-
+.footer h4
+{
+  font-weight: bold;
+}
