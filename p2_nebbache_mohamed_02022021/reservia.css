@@ -376,7 +376,7 @@ font-size:small;}
 { 
     display: flex;
     justify-content: space-between;
-    padding: 40px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
     text-align: left;
     width: 90%;
 
@@ -387,7 +387,7 @@ font-size:small;}
 {
     display: flex;
    justify-content: space-between;
-    padding: 2px;
+    padding: 3px;
     margin:10px;
     height: 30%;   
     width: 90%;
