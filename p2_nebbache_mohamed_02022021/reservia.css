@@ -3,7 +3,11 @@
   font-family: 'Raleway', sans-serif;
 
 }
- 
+  html
+ {   max-width: 1440px;
+    margin: auto;
+}
+
 
  a  
 {
@@ -33,6 +37,7 @@ main
 {
   margin :0px 50px;
 }
+
 
 .navigation
 {
@@ -85,7 +90,7 @@ body
   display: flex;
   flex-direction: column;
   margin:0px;
- min-width: 1024px
+ min-width: 1166px
 }
 
 
@@ -193,7 +198,7 @@ h4{
 }
 .filtre a:hover
 {
- transform: scale(1.2); 
+ transform: scale(1.1); 
 }
 
 .motfiltre
@@ -228,7 +233,7 @@ h4{
 {
   display: flex;
   justify-content: space-between;
-  height: 459px;
+  height: 600px;
 }
 
 
@@ -332,7 +337,7 @@ h5
   margin: 2px 5px;
   color: black;
   font-weight: bold;
-
+  font-size: medium;
 }
 .prix
 {
@@ -349,6 +354,7 @@ font-size:small;}
   margin: 2px 5px 9px;
   display: flex;
  flex-wrap: nowrap;
+ margin-top: auto;
  color: #0065FC;
  
 }
@@ -450,7 +456,7 @@ margin :0px;
 }
 .activitesam  a:hover
 {
- transform: scale(1.2); 
+ transform: scale(1.1); 
 
 }
 
