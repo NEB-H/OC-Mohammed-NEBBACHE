@@ -11,6 +11,11 @@ button
   display: none;
 }
 
+body
+{
+ 
+ min-width: 243px
+}
 .saisie
 {
   width: 75%;
@@ -77,6 +82,7 @@ main
 .ligne {
    flex-wrap: wrap;
    margin-bottom: 0;
+       padding: 0px 15px;
    height:775px;
    justify-content: space-between;
    align-content: initial;
